@@ -201,4 +201,5 @@ Operating System
 # 📜 License
 
 This project is developed for educational purposes.
+
 Licensed under the MIT License.
