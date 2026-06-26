@@ -145,7 +145,8 @@ http://127.0.0.1:5000
 ---
 
 ## 📄 Generated Course Content
-![Generated](./screenshots/generated.png)
+![Generated](./screenshots/generated1.png)
+![Generated](./screenshots/generated2.png)
 
 ---
 
