@@ -132,25 +132,25 @@ http://127.0.0.1:5000
 
 # 📷 Screenshots
 ## 🏠 Home Page
-![Home Page](screenshots/home.png)
+![Home Page](./screenshots/home.png)
 
 ---
 ## ✍️ Enter Course Title
-![Input](screenshots/input.png)
+![Input](./screenshots/input.png)
 
 ---
 ## ⏳ Generating Content
-![Loading](screenshots/loading.png)
+![Loading](./screenshots/loading.png)
 
 ---
 
 ## 📄 Generated Course Content
-![Generated](screenshots/generated.png)
+![Generated](./screenshots/generated.png)
 
 ---
 
 ## 📄 Download PDF
-![PDF](screenshots/pdf.png)
+![PDF](./screenshots/pdf.png)
 
 ---
 
