@@ -54,12 +54,12 @@ Do NOT wrap JSON inside ```.
 Use this exact structure:
 
 {{
-    "objective":"",
+    "objective": "",
 
-    "syllabus":[
+    "syllabus": [
         {{
-            "module":"",
-            "topics":[
+            "module": "",
+            "topics": [
                 "",
                 "",
                 ""
@@ -67,21 +67,21 @@ Use this exact structure:
         }}
     ],
 
-    "learning_outcomes":[
+    "learning_outcomes": [
         {{
-            "outcome":"",
-            "blooms_level":""
+            "outcome": "",
+            "blooms_level": ""
         }}
     ],
 
-    "assessment":[
+    "assessment": [
         {{
-            "method":"",
-            "weight":""
+            "method": "",
+            "weight": ""
         }}
     ],
 
-    "readings":[
+    "readings": [
         ""
     ]
 }}
@@ -107,7 +107,7 @@ Exactly 5 recommended books/resources with authors whenever possible.
 """
 
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[
                 {
                     "role": "user",
@@ -143,3 +143,4 @@ Exactly 5 recommended books/resources with authors whenever possible.
 
 if __name__ == "__main__":
     app.run(debug=True)
+
